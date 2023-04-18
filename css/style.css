@@ -3,3 +3,73 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Chivo Mono', monospace;
+}
+
+ul{
+    position: absolute;
+    right: 0;
+    top: 20px;
+    list-style-type: none;
+    position: fixed;
+    z-index: 100;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    background-color: white;
+    display: inline-block;
+    margin-right: 10px;
+    border-radius: 50%;
+    padding: 5px 10px;
+}
+
+#container, #container1, #container2{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+#container{
+    background-color: red;
+}
+
+#container1{
+    background-color: green;
+}
+
+#container2{
+    background-color: yellow;
+}
+
+img{
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    color: yellow;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#container2 h1{
+    color: green;
+}
