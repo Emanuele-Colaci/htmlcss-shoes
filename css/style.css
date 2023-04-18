@@ -34,6 +34,10 @@ li{
     padding: 5px 10px;
 }
 
+li:hover{
+    background-color: royalblue;
+}
+
 #container, #container1, #container2{
     position: relative;
     height: 100vh;
